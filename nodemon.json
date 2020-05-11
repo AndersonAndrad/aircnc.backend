@@ -1,0 +1,9 @@
+{
+  "execMap": {
+    "js": "sucrase-node"
+  },
+
+  "events": {
+    "start": "yarn eslint --fix src --ext .js && cls || clear"
+  }
+}
